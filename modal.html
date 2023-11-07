@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Modal window -->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <form class="register-form">
+          <button class="modal-btn" type="button" data-modal-close>
+            <svg class="btn-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <strong class="register-form-title"
+            >Leave your contacts and we will call you back</strong
+          >
+          <div class="label-box">
+            <label class="modal-label"
+              ><span class="name-label">Name</span>
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                autofocus
+              />
+            </label>
+          </div>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Phone</span>
+              <input class="modal-input" type="tel" name="user-number" />
+            </label>
+          </div>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Email</span>
+              <input class="modal-input" type="email" name="user-email" />
+            </label>
+          </div>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Comment</span>
+
+              <textarea
+                class="modal-input"
+                name="comment"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+
+          <label class="modal-label modal-point">
+            <input type="checkbox" name="accept" value="agree" /><span
+              class="privacy-text"
+              >I accept the terms and conditions of the
+              <a class="privacy-link" href="">Privacy Policy</a></span
+            >
+          </label>
+
+          <button class="send-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
