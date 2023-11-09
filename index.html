@@ -466,16 +466,16 @@
     </footer>
     <div class="modal-box is-open">
       <div class="modal-feld">
-<button class="button-close" type="submit" >
+<button class="button-close" type="button" >
   <svg class="icon-close" width="8" height="8">
     <use href="./images/icons.svg#icon-close-black"></use>
   </svg>
 </button>
 <p class="modal-title">Leave your contacts and we will call you back</p>
-
+<!-- First input -->
 <form class="modal-forme">
   <div class="form-feald">
-<label class="modal-label" for="user-name" name="user-name">Name
+<label class="modal-label" for="user-name" >Name
 </label>
 <div class="input-icon">
   <input class="input-box" type="text" name="user-name" id="user-name">
@@ -486,8 +486,9 @@
 </div>
 
   </div>
+  <!-- Second input -->
   <div class="form-feald">
-    <label class="modal-label" for="user-phone" name="user-phone">Phone
+    <label class="modal-label" for="user-phone" >Phone
     </label>
     <div class="input-icon">
       <input class="input-box" type="tel" name="user-phone" id="user-phone">
@@ -498,12 +499,12 @@
     </div>
     
       </div>
-  
+  <!-- Therd input -->
       <div class="form-feald">
-        <label class="modal-label" for="user-email" name="user-email">Email
+        <label class="modal-label" for="user-email" >Email
         </label>
         <div class="input-icon">
-          <input class="input-box" type="email" name="user-email" id="user-email">
+          <input class="input-box" id="user-email" type="email" name="user-email" >
           <svg class="svg-icon" width="18"
           height="24">
             <use href="./images/icons.svg#icon-email"></use>
@@ -511,15 +512,15 @@
         </div>
         
           </div>
+          <!-- Box for comments -->
           <div class="modal-comment-box ">
-            <label class="modal-label"  for="name-comment">Comment</label>
-          <div>
-            <textarea class="textarea" name="name-comment" id="name-comment"  rows="10" placeholder="Text input"></textarea>
-          </div>
+            <label class="modal-label"  for="user-comment">Comment</label>
+         
+            <textarea class="textarea" name="user-comment" id="user-comment"  rows="10" placeholder="Text input"></textarea>
           </div>
           <div class="container-check">
             <input class="visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true">
-            <label class="privacy-label" for="user-privacy" name="user-privacy"><span class="privacy-span"></span>I accept the terms and conditions of the <a class="link-policy" href=""></a>Privacy Policy</label>
+            <label class="privacy-label" for="user-privacy" ><span class="privacy-span"></span>I accept the terms and conditions of the <a class="link-policy" href=""></a>Privacy Policy</label>
           </div>
           <div class="modal-button-box" >
             <button class="modal-button" type="submit" >Send</button>
