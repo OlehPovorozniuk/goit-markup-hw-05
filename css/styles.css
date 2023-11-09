@@ -781,7 +781,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.17; 
 letter-spacing: 0.04em;
-display: flex;
+display: inline-flex;
 
   }
   .privacy-span{
@@ -789,13 +789,18 @@ display: flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
-    display: inline-flex;
+    display:inline-flex;
     justify-content: center;
     align-items: center;
     fill:transparent;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+   input:checked + .privacy-label .privacy-span{
+    background-color: #404bbf;
+    border: none;
+   fill: #F4F4FD;
+  } 
   .link-policy{
     color: #4d5ae5;
   }
@@ -816,5 +821,6 @@ background-color: #4D5AE5;
 border:none;
 border-radius: 4px;
 margin:auto;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
  
