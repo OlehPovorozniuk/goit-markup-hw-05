@@ -781,7 +781,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.17; 
 letter-spacing: 0.04em;
-display: inline-flex;
+
 
   }
   .privacy-span{
@@ -801,6 +801,8 @@ display: inline-flex;
     border: none;
    fill: #F4F4FD;
   } 
+
+ 
   .link-policy{
     color: #4d5ae5;
   }
