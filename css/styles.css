@@ -757,6 +757,7 @@ border-color:#4D5AE5 ;
 }
 .container-check{
     margin-bottom: 24px;
+    
  
 }
 .visually-hidden {
@@ -780,6 +781,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.17; 
 letter-spacing: 0.04em;
+display: flex;
 
   }
   .privacy-span{
@@ -813,8 +815,6 @@ cursor: pointer;
 background-color: #4D5AE5;
 border:none;
 border-radius: 4px;
+margin:auto;
   }
-  .modal-button-box{
-    display: flex;
-   justify-content: center;
-  }
+ 
